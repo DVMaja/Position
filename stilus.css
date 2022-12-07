@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(216, 213, 213);
+}
+
+header {
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width: 100%;
+    background-color: bisque;
+    z-index: 10;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 1px;
+    left: 1px;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+nav ul {
+    padding-left: 20px;
+}
+main {
+    position: static;
+    padding-top: 100px;
+    width: 80%;
+    max-width: 880px;    
+    margin: auto;
+    background-color: white;
+    padding-left: 10px;  
+    padding-bottom: 50px;     
+     
+}
+section {
+    text-align: justify;
+    
+}
+nav, section {
+    border: 1px solid black;
+    padding: 3px;
+}
+.torles{
+    padding: 10px;
+}
+.szamol {
+    padding: 5px;
+}
+.felugro {
+    position: fixed;
+    width: 200px;
+    top: 200px;   
+    margin: auto;
+    background-color: brown;
+    border-radius: 10px;
+    left: calc((100% - 200px) / 2);
+    padding: 10px;
+}
+form {
+    border: 1px solid black;
+    padding: 10px;
+}
+.jobb {
+    
+    color: red;
+    background-color: gray;
+    text-align: right;
+}
